@@ -1,0 +1,16 @@
+FloatLayout:
+	Background:
+		id: background
+		canvas:
+			Rectangle:
+				pos: self.pos
+				size: (self.width, 48)
+				texture: self.tx_floor
+			Rectangle:
+				pos: (self.x, self.y + 46)
+				size: (self.width, 32)
+				texture: self.tx_grass
+			Rectangle:
+				pos: (self.x + 20, self.height - 144)
+				size: (188, 128)
+				texture: self.tx_cloud
